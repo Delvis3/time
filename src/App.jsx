@@ -40,7 +40,7 @@ function App() {
  },[])
   return (
     // aca intente hacerle cambiar el fondo de noche a dia usando la propiedad sunset y sunnrise comparadolo con dt con un renderisado condicional como en el loadConfigFromFile, pero no pude
-   <main className='bg-[url("images/sun.jpg")] bg-opacity-40 bg-cover bg-center  min-h-screen  text-black flex justify-center items-center p-2 font-princpal-font'>
+   <main className='bg-[url("/images/sun.jpg")] bg-opacity-40 bg-cover bg-center  min-h-screen  text-black flex justify-center items-center p-2 font-princpal-font'>
   {
    weatherInfo ? <Weather weatherInfo={weatherInfo}/> : <Loader/>
   }
